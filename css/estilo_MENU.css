@@ -1,0 +1,166 @@
+#main{
+    font-size: 21px;
+}
+
+#logo{
+    width: auto;
+    height: 105px;
+    background-color: black;
+}
+
+#logo_bar{
+    width: 556px;
+    height: 103px;
+}
+
+#header{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    background-color: #181c1b;
+}
+
+#btt_menu{
+    display: none;
+}
+
+label[for="btt_menu"]{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+#nav ul{
+    list-style-type: none;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav li{
+    float: left;
+}
+
+#nav li a, .drop_btt{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover, .dropdown:hover, .drop_btt:hover{
+    background-color: rgb(255, 94, 0);
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown_content a{
+    color: black;
+    font-weight: bold;
+    padding: 20px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown_content a:hover{
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+@media(max-width: 800px){
+
+    #logo_bar{
+        position: relative;
+        top: 10px;
+        width: auto;
+        height: min-content;
+    }
+
+    .btt_java{
+        display: none;
+    }
+
+    #header{
+        text-align: center;
+        background-color: black;
+    }
+
+    label[for="btt_menu"]{
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        font-size: 80px;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    #btt_menu:checked ~ #nav{
+        display: block;
+    }
+
+    #nav li{
+        float: none;
+        text-align: center;
+    }
+
+    #nav, .dropdown_content{
+        position: relative;
+    }
+
+    #nav, .dropdown_content a{
+        text-align: center;
+    }
+
+    #footer{
+        width: auto;
+        height: min-content;
+    }
+
+    #footer p{
+        font-size: 20px;
+        padding: 2px;
+        margin: 0px;
+    }
+}
+
+@media(max-width: 500px){
+
+
+    label[for="btt_menu"]{
+        font-size: 45px;
+        position: absolute;
+        top: 15px;
+        color: white;
+    }
+}
+
+#footer{
+    height: min-content;
+    width: auto;
+    background-color: rgb(206, 206, 206);
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 0px
+}

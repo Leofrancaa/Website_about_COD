@@ -1,0 +1,203 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(37, 37, 37)
+}
+
+#main{
+    color: white;
+    text-align: justify;
+    width: auto;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.warzone{
+    height: 555px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.warzone img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.article{
+    color: white;
+    text-align: justify;
+}
+
+#article{
+    width: 1260px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+#article h2{
+    margin-top: 5px;
+}
+
+.mw{
+    width: 600px;
+    height: 580px;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mw p{
+    line-height: 25px;
+    font-size: 21px;
+}
+
+.mw img{
+    width: 600px;
+    height: 380px;
+}
+
+.cw{
+    width: 600px;
+    height: 580px;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-left: 15px;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.cw p{
+    line-height: 25px;
+    font-size: 21px;
+}
+
+.cw img{
+    width: 600px;
+    height: 380px;
+}
+
+#cw p{
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+h2{
+    border-bottom: 1px solid white;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#box_1{
+    width: 700px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 23px;
+}
+
+#box_2{
+    width: 700px;
+    padding: 20px;
+    text-align: justify; 
+    line-height: 23px
+}
+
+
+@media(max-width:800px){
+    
+    h2{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .mw p{
+        font-size: 20px;
+        line-height: 32px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .cw p{
+        font-size: 20px;
+        line-height: 32px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .container{
+        display: block;
+    }
+
+    .warzone{
+        width: 100%;
+        height: min-content;
+    }
+
+    #article{
+        width: fit-content;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        border-radius: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: min-content;
+    }
+
+    #article h2{
+       padding-bottom: 20px;
+    }
+
+    .mw{
+        width: auto;
+        margin-bottom: 20px;
+        border-radius: 0px;
+        height: min-content;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .mw img{
+        width: 100%;
+        height: min-content;
+    }
+
+    .cw{
+        width: auto;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px;
+        height: min-content;
+    }
+
+    .cw img{
+        width: 100%;
+        height: min-content;
+    }
+
+}
+
+

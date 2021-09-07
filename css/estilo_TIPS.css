@@ -1,0 +1,181 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(24, 23, 23);
+}
+
+#main{
+    color: white;
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#banner{
+    height: min-content;
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h2{
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+#article_1{
+    padding: 10px;
+    line-height: 26px;
+    font-size: 21px;
+}
+
+.tips{
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    width: 93%;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.btt_link{
+    list-style-type: none;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+a:hover{
+    background-color: rgb(255, 94, 0);;
+}
+
+#va{
+    width: 1200px;
+    height: min-content;
+    margin: auto;
+    margin-top: 20px;
+    background-color: black;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#vv, #vam{
+    width: 1200px;
+    height: min-content;
+    margin: auto;
+    margin-top: 20px;
+    background-color: black;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#letal{
+    width: 1200px;
+    height: min-content;
+    margin: auto;
+    margin-top: 20px;
+    background-color: black;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 25px;
+}
+
+#tatico{
+    width: 1200px;
+    height: min-content;
+    margin: auto;
+    margin-top: 20px;
+    background-color: black;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 25px;
+}
+
+@media(max-width:800px){
+
+    #banner{
+        width: auto;
+        height: min-content;
+        padding-bottom: 10px;
+        border-radius: 0px;
+        margin: 0px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    #article_1 p{
+        font-size: 20px;
+        line-height: 31px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px;
+    }
+
+    .img_1{
+        width: auto;
+        height: min-content;
+    }
+
+    .tips{
+        width: auto;
+        height: min-content;
+        border-radius: 0px;
+    }
+
+    .tips p{
+        font-size: 20px;
+        line-height: 31px;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #va, #vv, #vam{
+        width: auto;
+        height: min-content;
+        padding-bottom: 0px;
+        border-radius: 0px;
+    }
+
+    #va p, #vv p, #vam p{
+        font-size: 40px;
+        line-height: 31px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #letal, #tatico{
+        width: auto;
+        height: min-content;
+        padding-bottom: 0px;
+        border-radius: 0px;
+    }
+
+    #letal p, #tatico p{
+        font-size: 20px;
+        line-height: 31px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
